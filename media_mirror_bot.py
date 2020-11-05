@@ -10,7 +10,7 @@ from asyncio import run
 # https://mastodonpy.readthedocs.io/en/stable/
 fediClient = Mastodon(
     access_token='fedi_user.txt',
-    api_base_url='https://fedi.valkyrie.world')
+    api_base_url=<YOUR INSTANCE URL HERE>
 
 # Contains the token for your discord bot, this is NOT the bot's secret
 # Find this in the 'bot' page of your discord application
