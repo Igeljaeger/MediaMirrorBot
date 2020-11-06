@@ -14,11 +14,13 @@ List of discord text channel id's to mirror posts to, separated by newlines. Fin
 
 ### discord\_token.txt
 
-Contains the token for your discord bot, this is NOT the bot's secret. Find this in the 'bot' page of your discord application.
+Contains the token for your discord bot, this is NOT the bot's secret. Find this in the 'bot' page of your discord application. See [discord.py's documentation](https://discordpy.readthedocs.io/en/latest/discord.html) for more information on now to set up a discord bot and obtain it's token.
 
 ### fedi\_user.txt
 
 Contains the login token for the account this bot will use to access the fediverse. See [mastodon.py's documentation](https://mastodonpy.readthedocs.io/en/stable/) for information on how to obtain this token.
+
+Additionally, the URL of your instance must be entered into line 13 of media\_mirror\_bot.py.
 
 ### fedi\_users.txt
 
