@@ -38,7 +38,7 @@ def is_media_post(post):
         if post.in_reply_to_id == None:
             if len(post.media_attachments) > 0:
                 if len(post.media_attachments) <= 4:
-                    if post.sensitive == false:
+                    if post.sensitive == False:
                         return True
     return False
 
